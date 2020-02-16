@@ -10,6 +10,8 @@ compile_error!("select USB mode feature (fs/hs)");
 
 mod endpoint;
 mod endpoint_memory;
+mod endpoint_allocator;
+mod endpoint_trait;
 
 mod target;
 
